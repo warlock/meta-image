@@ -1,0 +1,30 @@
+{
+  "name": "meta-image",
+  "version": "1.0.0",
+  "description": "Extract image URL from HTML or Website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlock/meta-image.git"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "keywords": [
+    "image",
+    "scrapping",
+    "meta",
+    "metatags",
+    "twitter"
+  ],
+  "author": "Josep Subils <js@js.gl> (http://js.gl)",
+  "license": "MIT",
+  "dependencies": {
+    "check-file": "^1.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^9.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
