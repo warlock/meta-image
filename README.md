@@ -16,7 +16,7 @@ https://github.com/warlock/meta-image
 ```javascript
 const metaImage = require('metaImage')
 const imageURL = metaImage.parser(html_string)
-const imageURL2 = await metaImage('http://url_article') 
+const imageURL2 = await metaImage.get('http://url_article') 
 ```
 
 ## License
