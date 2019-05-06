@@ -1,6 +1,6 @@
 {
   "name": "meta-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract image URL from HTML or Website",
   "main": "index.js",
   "repository": {
@@ -10,17 +10,11 @@
   "scripts": {
     "test": "mocha ./test/*.js"
   },
-  "keywords": [
-    "image",
-    "scrapping",
-    "meta",
-    "metatags",
-    "twitter"
-  ],
+  "keywords": ["image", "scrapping", "meta", "metatags", "twitter"],
   "author": "Josep Subils <js@js.gl> (http://js.gl)",
   "license": "MIT",
   "dependencies": {
-    "check-file": "^1.1.0",
+    "check-file": "^1.1.1",
     "cheerio": "^1.0.0-rc.3",
     "got": "^9.6.0"
   },
